@@ -1,4 +1,7 @@
-nimi1 = input("mis on nimi 1? ")
-nimi2 = input("mis on nimi 2? ")
-tervitus = "tere, "+nimi1+" ja "+nimi2
-print(tervitus)
+ah = int(input("esimene arv???? "))
+uh = ah*2
+auh = ah+uh
+augh = auh+9
+aughh = augh/2
+aughhh = aughh-ah
+print(aughhh)
