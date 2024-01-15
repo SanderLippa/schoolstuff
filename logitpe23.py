@@ -1,4 +1,11 @@
-t6isarv = input("Sisesta jagatav: ")
-jagaja = input("Sisesta jagaja: ")
-j66k = int(t6isarv) % int(jagaja)
-print(j66k)
+from turtle import *
+
+color("black")
+begin_fill()
+i= 0;
+while i < 4:
+    fd(140)
+    lt(340)
+    i +=2
+end_fill()
+exitonclick()
