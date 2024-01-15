@@ -1,5 +1,4 @@
 t6isarv = input("Sisesta jagatav: ")
 jagaja = input("Sisesta jagaja: ")
-vastus = int(t6isarv) / int(jagaja)
 j66k = int(t6isarv) % int(jagaja)
 print(j66k)
