@@ -1,4 +1,4 @@
-pee=int(input("sisestage tuule kiirus "))
+pee=float(input("sisestage tuule kiirus "))
 if pee < 8:
     print("Kehalise kasvatuse tund võib toimuda õues")
 
