@@ -1,9 +1,9 @@
-pee=float(input("sisestage tuule kiirus "))
-if pee < 8:
-    print("Kehalise kasvatuse tund võib toimuda õues")
-
-if pee > 8:
-    print("Kehalise kasvatuse tund peaks toimuma siseruumis")
-
-if pee == 8:
-    print("Kehalise kasvatuse tund peaks toimuma siseruumis")
+vanus=int(input("sisestage vanus "))
+if  16>vanus>=0:
+    print("Ei ole veel lubatud haaletada")
+elif 16<=vanus<18:
+    print("On lubatud haaletada kohalikel valimistel")
+elif 18<=vanus<110:
+    print("On lubatud haaletada nii kohalikel kui ka riigikogu valimistel")
+if 0<vanus>110:
+    print("Vigane vanus")
