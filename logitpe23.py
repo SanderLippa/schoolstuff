@@ -4,3 +4,6 @@ if pee < 8:
 
 if pee > 8:
     print("Kehalise kasvatuse tund peaks toimuma siseruumis")
+
+if pee == 8:
+    print("Kehalise kasvatuse tund peaks toimuma siseruumis")
