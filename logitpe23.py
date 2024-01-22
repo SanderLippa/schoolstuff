@@ -1,5 +1,6 @@
-pikkus=float(input("sisesta sammu pikkus "))
-vahemaa=int(input("sisesta vahemaa "))
-total=(vahemaa/pikkus)
-total2=round(total)
-print(total2)
+pee=int(input("sisestage tuule kiirus "))
+if pee < 8:
+    print("Kehalise kasvatuse tund võib toimuda õues")
+
+if peee > 8:
+    print("Kehalise kasvatuse tund peaks toimuma siseruumis")
