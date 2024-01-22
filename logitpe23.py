@@ -1,11 +1,5 @@
-from turtle import *
-
-color("black")
-begin_fill()
-i= 0;
-while i < 4:
-    fd(140)
-    lt(340)
-    i +=2
-end_fill()
-exitonclick()
+pikkus=float(input("sisesta sammu pikkus "))
+vahemaa=int(input("sisesta vahemaa "))
+total=(vahemaa/pikkus)
+total2=round(total)
+print(total2)
