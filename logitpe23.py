@@ -8,5 +8,5 @@ elif sugu == ("N"):
 if sugu == ("m"):
     lapse_pikkus = (emap+isap) / 2 + 6.5
 elif sugu == ("M"):
-    lapse_pikkus = (emap+isap) / 2 - 6.5
+    lapse_pikkus = (emap+isap) / 2 + 6.5
 print(lapse_pikkus)
