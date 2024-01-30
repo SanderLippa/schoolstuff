@@ -17,5 +17,4 @@ ajaline = int(A_js*(B_js-aeg)**C_js)
 distantsiline = int(A_h*(distants-B_h)**C_h)
 
 #prindi tulemused
-print(ajaline)
-print(distantsiline)
+print(ajaline+distantsiline)
