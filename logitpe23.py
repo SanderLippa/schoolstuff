@@ -1,5 +1,3 @@
-aasta = int(2020)
-liblikas = ("teelehe-mosaiikliblikas")
-lause_keskosa = (". aasta liblikas on ")
-lause = (str(aasta)+lause_keskosa+liblikas)
-print(lause)
+alus = int(input("sisestage number "))
+astendaja = int(input("sisestage astendaja "))
+print(alus**astendaja)
