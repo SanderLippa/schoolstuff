@@ -4,7 +4,7 @@ if  pakik6rgus <=9:
     pakisuurus = 'S'
 elif 9< pakik6rgus <=19:
     pakisuurus = 'M'
-elif 20< pakik6rgus <= 39:
+elif pakik6rgus <40:
     pakisuurus = 'L'
 else:
     pakisuurus='N/A'
