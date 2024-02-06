@@ -1,5 +1,18 @@
-punktid = int(input("sisesta ainepunktide arv "))
-nadalad = int(input("sisesta nadalate arv "))
-tunnid = 26*punktid
-ajakulu = tunnid / nadalad
-print(round(ajakulu))
+pakik6rgus = float(input("sisesta k6rgus"))
+pakikaal = float(input("sisesta kaal"))
+if  pakik6rgus <=9:
+    pakisuurus = 'S'
+elif 9< pakik6rgus <=19:
+    pakisuurus = 'M'
+elif 20< pakik6rgus <= 39:
+    pakisuurus = 'L'
+else:
+    pakisuurus='N/A'
+
+if pakisuurus != 'N/A':
+    print("Pakk on",pakisuurus + "-suurusega ja saab saata pakiautomaadist.")
+else:
+     if pakik6rgus >=40 and pakikaal <=30:
+        print("Pakki saab saata postkontorist voi kulleriga.")
+     elif pakik6rgus >=40 and pakikaal >=31:
+         print("Pakki saab saata ainult postkontorist.")
