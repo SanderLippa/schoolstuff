@@ -1,18 +1,11 @@
-pakik6rgus = float(input("sisesta k6rgus"))
-pakikaal = float(input("sisesta kaal"))
-if  pakik6rgus <=9:
-    pakisuurus = 'S'
-elif 9< pakik6rgus <=19:
-    pakisuurus = 'M'
-elif pakik6rgus <40:
-    pakisuurus = 'L'
-else:
-    pakisuurus='N/A'
+temp = int(input("sisestage temperatuur "))
+sun = input("kas päike paistab ")
+lipp = input("kas rannas on roheline lipp")
 
-if pakisuurus != 'N/A':
-    print("Pakk on",pakisuurus + "-suurusega ja saab saata pakiautomaadist.")
+if lipp == 'jah':
+    print("Võid minna randa!")
 else:
-     if pakik6rgus >=40 and pakikaal <=30:
-        print("Pakki saab saata postkontorist või kulleriga.")
-     elif pakik6rgus >=40 and pakikaal >=31:
-         print("Pakki saab saata ainult postkontorist.")
+    if temp >=20 and sun == 'jah':
+        print("Võid minna randa!")
+    elif temp <=19 or sun == 'ei':
+        print("Täna ei tasu randa minna.")
