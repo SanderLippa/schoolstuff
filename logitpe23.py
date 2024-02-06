@@ -13,6 +13,6 @@ if pakisuurus != 'N/A':
     print("Pakk on",pakisuurus + "-suurusega ja saab saata pakiautomaadist.")
 else:
      if pakik6rgus >=40 and pakikaal <=30:
-        print("Pakki saab saata postkontorist voi kulleriga.")
+        print("Pakki saab saata postkontorist või kulleriga.")
      elif pakik6rgus >=40 and pakikaal >=31:
          print("Pakki saab saata ainult postkontorist.")
