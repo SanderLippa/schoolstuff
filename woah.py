@@ -1,0 +1,8 @@
+nimi = input("sisesta oma nimi ")
+vanus = input("sisesta oma vanus ")
+aadress = input("sisesta oma aadress ")
+f = open("andmed3.txt","w")
+f.write(nimi + "\n")
+f.write(vanus + "\n")
+f.write(aadress + "\n")
+f.close()
