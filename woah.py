@@ -1,8 +1,8 @@
-nimi = input("sisesta oma nimi ")
-vanus = input("sisesta oma vanus ")
-aadress = input("sisesta oma aadress ")
-f = open("andmed3.txt","w")
-f.write(nimi + "\n")
-f.write(vanus + "\n")
-f.write(aadress + "\n")
-f.close()
+investeering = float(input("Sisestage investeeritav summa (eurodes): "))
+aastad = int(input("Sisestage investeeringu kogupikkus (aastates): "))
+tootlus_protsentides = float(input("Sisestage oodatav aastatootlus (protsentides): "))
+
+tootlus_kordaja = 1 + tootlus_protsentides / 100
+lõppsumma = investeering * (tootlus_kordaja ** aastad)
+
+print(f"Teie investeeringu lõppsumma {aastad} aasta pärast on: {round(lõppsumma, 2)} eurot")
