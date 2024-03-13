@@ -1,11 +1,13 @@
-kood1 = "1223"
-kood2 = "0454"
-print("Sisesta kood:")
-sisestus1 = input()
-print("Sisesta kood:")
-sisestus2 = input()
- 
-if sisestus1 == kood1 or sisestus2 == kood2:
-    print("ye")
+from random import *
+print("Kas kull (1) voi kiri (2)?")
+valik = int(input())
+suvarv = randint(1,1)
+if  valik == suvarv:
+    print("Arvasid oigesti.")
 else:
-    print("nah")
+    print("Arvasid valesti.")
+suvarv2 = randint(1,2)
+if valik == suvarv2:
+    print("arvasid oigesti teist korda")
+else:
+    print("Arvasid valesti teist korda")
