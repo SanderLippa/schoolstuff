@@ -1,14 +1,43 @@
-sispin = input("sisestage pin: ")
-raha = 3000000
-orjad = 39
-if sispin == "1234":
-    print("pang:",raha)
-    print("sul on",orjad,"orja")
-    print("palju raha soovid:")
-    rahav = int(input())
-    if rahav <= raha:
-        raha -= rahav
-        print("teil on",raha,"eurot")
-    
-else:
-    print("vale pin")
+from turtle import *
+valik = input("kukeseened voi puravikud: ")
+if valik == ("kukeseened"):
+    speed(100)
+    begin_fill()
+    fillcolor("yellow")
+    right(90)
+    fd(100)
+    right(90)
+    fd(40)
+    right(90)
+    fd(100)
+    left(45)
+    fd(70)
+    right(130)
+    fd(140)
+    right(130)
+    fd(85)
+    end_fill()
+
+elif valik == ("puravikud"):
+    speed(100)
+    begin_fill()
+    fillcolor("gray")
+    right(90)
+    fd(100)
+    right(90)
+    fd(40)
+    right(90)
+    fd(100)
+    right(90)
+    fd(120)
+    end_fill()
+    right(90)
+    right(90)
+    right(90)
+    begin_fill()
+    fillcolor("brown")
+    circle(100,180)
+    left(90)
+    fd(100)
+    end_fill()
+exitonclick()
