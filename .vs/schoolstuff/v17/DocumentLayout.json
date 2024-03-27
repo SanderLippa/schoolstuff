@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\ul.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ul.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\logitpe23.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:logitpe23.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\ul.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ul.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ul.py",
-              "DocumentMoniker": "C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\ul.py",
-              "RelativeDocumentMoniker": "ul.py",
-              "ToolTip": "C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\ul.py",
-              "RelativeToolTip": "ul.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-19T13:48:53.789Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -48,14 +35,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ul.py",
+              "DocumentMoniker": "C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\ul.py",
+              "RelativeDocumentMoniker": "ul.py",
+              "ToolTip": "C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\ul.py",
+              "RelativeToolTip": "ul.py",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-19T13:48:53.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "logitpe23.py",
               "DocumentMoniker": "C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\logitpe23.py",
               "RelativeDocumentMoniker": "logitpe23.py",
               "ToolTip": "C:\\Users\\Sander\\source\\repos\\SanderLippa\\schoolstuff\\logitpe23.py",
               "RelativeToolTip": "logitpe23.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-06T07:53:42.291Z"
+              "WhenOpened": "2024-03-06T07:53:42.291Z",
+              "EditorCaption": ""
             }
           ]
         }

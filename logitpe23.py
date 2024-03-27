@@ -1,43 +1,20 @@
-from turtle import *
-valik = input("kukeseened voi puravikud: ")
-if valik == ("kukeseened"):
-    speed(100)
-    begin_fill()
-    fillcolor("yellow")
-    right(90)
-    fd(100)
-    right(90)
-    fd(40)
-    right(90)
-    fd(100)
-    left(45)
-    fd(70)
-    right(130)
-    fd(140)
-    right(130)
-    fd(85)
-    end_fill()
-
-elif valik == ("puravikud"):
-    speed(100)
-    begin_fill()
-    fillcolor("gray")
-    right(90)
-    fd(100)
-    right(90)
-    fd(40)
-    right(90)
-    fd(100)
-    right(90)
-    fd(120)
-    end_fill()
-    right(90)
-    right(90)
-    right(90)
-    begin_fill()
-    fillcolor("brown")
-    circle(100,180)
-    left(90)
-    fd(100)
-    end_fill()
-exitonclick()
+knimi = "sander"
+kparool = "1234"
+i = 0
+while i < 3:
+    nimi = input("sisestage kasutajanimi: ") 
+    parool = input("sisestage parool: ")
+    if nimi != knimi:
+        print("vale kasutajanimi")
+    if parool != kparool:
+        print("vale parool")
+        i+=1
+    else:
+        kood = input("sisestage kood:")
+        kood2 = len(kood)
+        if kood2 == 6:
+            print("olete sisse logitud")
+            exit()
+        else:
+            print("2fa koodis on 6 numbrit")
+            i+=1
